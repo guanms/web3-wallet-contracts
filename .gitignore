@@ -1,0 +1,36 @@
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs (contains transaction details)
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+/broadcast/*/
+
+# Sensitive files
+.env
+cache/
+# Protects against accidental .env commits
+*.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docs
+docs/
+
+# Scripts (optional - remove if you want to commit them)
+# check-config.sh
+# deploy-sepolia.sh
+# free-rpc-list.sh
+# test-rpc.sh
