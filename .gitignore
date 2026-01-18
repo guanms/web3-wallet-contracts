@@ -26,9 +26,6 @@ cache/
 .DS_Store
 Thumbs.db
 
-# Docs
-docs/
-
 # Scripts (optional - remove if you want to commit them)
 # check-config.sh
 # deploy-sepolia.sh
